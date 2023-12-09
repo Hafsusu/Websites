@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Importing fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Online Job Portal</title>
+</head>
+<body>
+    <!--Sidebar-->
+    <div class="sidebar">
+        <h1 class="logo">JobsPlace</h1>
+        <div class="menus">
+            <a href="#"><ion-icon name="home-outline"></ion-icon>Home</a>
+            <a href="#"><ion-icon name="newspaper-outline"></ion-icon>Find Jobs</a>
+            <a href="#"><ion-icon name="stats-chart-outline"></ion-icon>Performance</a>
+            <a href="#"><ion-icon name="bookmarks-outline"></ion-icon>Bookmarks</a><a href="#"><ion-icon name="mail-unread-outline"></ion-icon>Message</a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+        </div>
+        <div class="profile">
+            <img src="img/profile.jpg" alt="" class="profile-img">
+            <div class="profile-name">
+                <h4>Sumeya Abesha</h4>
+                <p>Coloud Management</p>
+            </div>
+        </div>
+    </div>
+    <!--Main-->
+    <div class="main">
+        <div class="main-header">
+            <ion-icon class="menu-bar" name="menu-outline"></ion-icon>
+            <div class="search">
+                <input type="text" placeholder="Search your best job here...">
+                <button class="btn-search"><ion-icon name="search-outline"></ion-icon></button>
+            </div>
+        </div>
+        <div class="filter-wrapper">
+            <p>Reccomendation</p>
+            <div class="filter">
+                <button class="btn-filter">Data Science</button>
+                <button class="btn-filter">Data Engineer</button>
+                <button class="btn-filter">Data Analyst</button>
+                <button class="btn-filter">Data Visualization</button>
+                <button class="btn-filter">CRM Analyst</button>
+            </div>
+        </div>
+        <div class="sort">
+            <p>Sort</p>
+            <div class="sort-list">
+                <select>
+                    <option value="0">All</option>
+                    <option value="1">Newest Post</option>
+                    <option value="2">Oldest Post</option>
+                    <option value="3">Most Relevant</option>
+                    <option value="4">Highest Paid</option>
+                </select>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="card">
+                <div class="card-left blue-bg">
+                    <img src="img/google-g-2015.svg" alt="">
+                </div>
+                <div class="card-center">
+                    <h3>Google</h3>
+                    <p class="card-detail">Data Science, Data Engineer</p>
+                    <p class="card-loc"><ion-icon name="location-outline"></ion-icon>Abcd Street</p>
+                    <div class="card-sub">
+                        <p><ion-icon name="today-outline"></ion-icon>1 mins ago</p>
+                        <p><ion-icon name="hourglass-outline"></ion-icon>Full-time</p><p><ion-icon name="people-outline"></ion-icon>200 applicants</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Divisions</h5>
+                        <a href="#">Data Engineer</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$350k</b><span>/ Year</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-left yellow-bg">
+                    <img src="img/tiktok-logo-2--1.svg" alt="">
+                </div>
+                <div class="card-center">
+                    <h3>Tiktok</h3>
+                    <p class="card-detail">Data Analyst, Product Analyst</p>
+                    <p class="card-loc"><ion-icon name="location-outline"></ion-icon>Abcd Street</p>
+                    <div class="card-sub">
+                        <p><ion-icon name="today-outline"></ion-icon>10 mins ago</p>
+                        <p><ion-icon name="hourglass-outline"></ion-icon>Full-time</p><p><ion-icon name="people-outline"></ion-icon>250 applicants</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Divisions</h5>
+                        <a href="#">Data Science</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$150k</b><span>/ Year</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-left red-bg">
+                    <img src="img/youtube-3.svg" alt="">
+                </div>
+                <div class="card-center">
+                    <h3>YouTube</h3>
+                    <p class="card-detail">Data Analyst, Product Analyst</p>
+                    <p class="card-loc"><ion-icon name="location-outline"></ion-icon>Abcd Street</p>
+                    <div class="card-sub">
+                        <p><ion-icon name="today-outline"></ion-icon>1 hour ago</p>
+                        <p><ion-icon name="hourglass-outline"></ion-icon>Full-time</p><p><ion-icon name="people-outline"></ion-icon>150 applicants</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Divisions</h5>
+                        <a href="#">Product, Engineer</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$450k</b><span>/ Year</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-left purple-bg">
+                    <img src="img/apple-13.svg" alt="">
+                </div>
+                <div class="card-center">
+                    <h3>Apple</h3>
+                    <p class="card-detail">UI Ux Designer</p>
+                    <p class="card-loc"><ion-icon name="location-outline"></ion-icon>Abcd Street</p>
+                    <div class="card-sub">
+                        <p><ion-icon name="today-outline"></ion-icon>1 hour ago</p>
+                        <p><ion-icon name="hourglass-outline"></ion-icon>Full-time</p><p><ion-icon name="people-outline"></ion-icon>170 applicants</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Divisions</h5>
+                        <a href="#">Designer app</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$230k</b><span>/ Year</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-left blue-bg">
+                    <img src="img/amazon-icon-1.svg" alt="">
+                </div>
+                <div class="card-center">
+                    <h3>Amazon</h3>
+                    <p class="card-detail">Customer Care</p>
+                    <p class="card-loc"><ion-icon name="location-outline"></ion-icon>Abcd Street</p>
+                    <div class="card-sub">
+                        <p><ion-icon name="today-outline"></ion-icon>2 hours ago</p>
+                        <p><ion-icon name="hourglass-outline"></ion-icon>Full-time</p><p><ion-icon name="people-outline"></ion-icon>190 applicants</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Divisions</h5>
+                        <a href="#">Customer Area</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>$130k</b><span>/ Year</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Right section: detail jobs-->
+    <div class="detail">
+        <ion-icon class="close-outline" name="close-detail"></ion-icon>
+        <div class="detail-header">
+            <img src="img/google-g-2015.svg" alt="">
+            <h2>Google</h2>
+            <p>Data Science</p>
+        </div>
+        <hr class="divider">
+        <div class="detail-desc">
+            <div class="about">
+                <h4>About Company</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis dolorem exercitationem illo odit quibusdam est!</p>
+                <a href="#">Read More</a>
+            </div>
+            <hr class="divider">
+            <div class="qualification">
+                <h4>Qualification</h4>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eos.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eos.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eos.</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="detail-btn">
+            <button class="btn-apply">Apply Now</button>
+            <button class="btn-save">Save Jobs</button>
+        </div>
+    </div>
+</body>
+ <!--Adding icons-->
+ <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ <!--Adding library jquery-->
+ <script src="https://codee.jquery.com/jquery-2.2.5.min.js"></script>
+ <script src="/Job portal/app.js"></script>
+</html>
